@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="ConstraintLayout">
+        <State />
+      </entry>
+      <entry key="ContraintLayoutTH">
+        <State />
+      </entry>
+      <entry key="FrameLayout">
+        <State />
+      </entry>
+      <entry key="LinearLayout">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
