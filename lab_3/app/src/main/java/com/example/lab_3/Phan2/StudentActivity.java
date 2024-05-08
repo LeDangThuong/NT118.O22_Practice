@@ -21,7 +21,7 @@ import java.util.ArrayList;
 public class StudentActivity  extends AppCompatActivity {
     String DB_PATH_SUFFIX = "/databases/";
     SQLiteDatabase database = null;
-    String DATABASE_NAME = "qlsv.db";
+    String DATABASE_NAME = "qlsv1.db";
     //Khai báo ListView
     ListView lv;
     ArrayList<String> mylist;
@@ -32,7 +32,7 @@ public class StudentActivity  extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.student_listview);
 
-        database = openOrCreateDatabase("qlsv.db", MODE_PRIVATE, null);
+        database = openOrCreateDatabase("qlsv1.db", MODE_PRIVATE, null);
 
         lv = findViewById(R.id.listview);
         mylist = new ArrayList<>();
