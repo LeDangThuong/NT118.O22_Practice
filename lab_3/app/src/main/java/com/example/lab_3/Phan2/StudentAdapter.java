@@ -29,9 +29,9 @@ public class StudentAdapter extends CursorAdapter {
         TextView classTextView = view.findViewById(R.id.text_class);
 
         // Extract properties from cursor
-        String mssv = cursor.getString(cursor.getColumnIndexOrThrow("mssv"));
-        String name = cursor.getString(cursor.getColumnIndexOrThrow("name"));
-        String className = cursor.getString(cursor.getColumnIndexOrThrow("class"));
+        String mssv = cursor.getString(cursor.getColumnIndexOrThrow("MSSV"));
+        String name = cursor.getString(cursor.getColumnIndexOrThrow("Hoten"));
+        String className = cursor.getString(cursor.getColumnIndexOrThrow("Lop"));
 
         // Populate views with extracted properties
         mssvTextView.setText(mssv);
