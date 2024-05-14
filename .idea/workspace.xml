@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9528f03f-724a-4fe1-9cf6-9e0f03310c14" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lab_3/app/src/main/assets/qlsv1.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_3/app/src/main/java/com/example/lab_3/Phan2/StudentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/app/src/main/java/com/example/lab_3/Phan2/StudentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_3/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_3/app/src/main/assets/qlsv1.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_3/app/src/main/java/com/example/lab_3/Phan2/StudentActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/app/src/main/java/com/example/lab_3/Phan2/StudentActivity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
