@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9528f03f-724a-4fe1-9cf6-9e0f03310c14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_5/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/.idea/gradle.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/NT118.O22/NT118.O22_Practice",
+    "last_opened_file_path": "E:/NT118.O22/NT118.O22_Practice/Lab6",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
