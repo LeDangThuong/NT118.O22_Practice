@@ -81,7 +81,8 @@ public class StudentActivity extends AppCompatActivity {
             // Kiem tra neu duong dan khong co, thi tao moi file
             File f = new File(getApplicationInfo().dataDir +
                     DB_PATH_SUFFIX);
-            if (!f.exists()) f.mkdir();
+            if (!f.exists())
+                f.mkdir();
             // Mo empty db su dung output stream
             OutputStream myOutput = new FileOutputStream(outFileName);
             // Sao chep du lieu bytes tu input toi ouput

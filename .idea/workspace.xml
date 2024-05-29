@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9528f03f-724a-4fe1-9cf6-9e0f03310c14" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Lab6/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Lab6/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_5/.idea/deploymentTargetSelector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/.idea/deploymentTargetSelector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_5/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lab_5/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9528f03f-724a-4fe1-9cf6-9e0f03310c14" name="Changes" comment="Cập nhật" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +35,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/NT118.O22/NT118.O22_Practice/Lab6",
+    "last_opened_file_path": "E:/NT118.O22/NT118.O22_Practice",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -53,6 +48,19 @@
       <option name="presentableId" value="Default" />
       <updated>1715090223648</updated>
     </task>
+    <task id="LOCAL-00001" summary="Cập nhật">
+      <option name="closed" value="true" />
+      <created>1716950671513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716950671513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Cập nhật" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cập nhật" />
   </component>
 </project>
