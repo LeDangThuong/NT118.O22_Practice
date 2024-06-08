@@ -22,7 +22,6 @@ public class MusicTask extends AsyncTask<Void, Void, Void> {
         progressDialog.setMessage(context.getString(R.string.please_wait));
         progressDialog.show();
     }
-
     @Override
     protected Void doInBackground(Void... voids) {
         mediaPlayer = MediaPlayer.create(context, R.raw.music_file); // Add your music file in res/raw folder
@@ -35,7 +34,6 @@ public class MusicTask extends AsyncTask<Void, Void, Void> {
         }
         return null;
     }
-
     @Override
     protected void onPostExecute(Void aVoid) {
         super.onPostExecute(aVoid);

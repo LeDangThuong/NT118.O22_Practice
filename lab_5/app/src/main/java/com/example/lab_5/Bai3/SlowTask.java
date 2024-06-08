@@ -6,18 +6,15 @@ import android.os.AsyncTask;
 import android.widget.TextView;
 
 import com.example.lab_5.R;
-
 public class SlowTask extends AsyncTask<Void, Integer, Void> {
     private Context context;
     private TextView tvStatus;
     private Long startTime;
     private ProgressDialog pdWaiting;
-
     public SlowTask(Context context, TextView tvStatus) {
         this.context = context;
         this.tvStatus = tvStatus;
     }
-
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
@@ -27,7 +24,6 @@ public class SlowTask extends AsyncTask<Void, Integer, Void> {
         pdWaiting.setMessage(context.getString(R.string.please_wait));
         pdWaiting.show();
     }
-
     @Override
     protected Void doInBackground(Void... voids) {
         for (int i = 0; i <=5; i++) {
@@ -54,7 +50,6 @@ public class SlowTask extends AsyncTask<Void, Integer, Void> {
         }
         tvStatus.append("\nEnd time: " + System.currentTimeMillis());
         tvStatus.append("\nDone!");
-
     }
 }
 

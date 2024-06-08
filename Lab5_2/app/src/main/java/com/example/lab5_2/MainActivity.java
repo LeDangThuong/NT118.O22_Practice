@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private long startTime;
     private final String PATIENCE = "Some important data is being collected now.\nPlease be patient...wait...";
     private Handler handler;
+
     //Các đối tượng Runnable để chạy mã trong các luồng khác nhau.
     private Runnable fgRunnable, bgRunnable;
     private Thread testThread;

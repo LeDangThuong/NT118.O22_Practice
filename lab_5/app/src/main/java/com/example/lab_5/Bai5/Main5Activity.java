@@ -15,21 +15,16 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers;
 import io.reactivex.rxjava3.core.Observable;
 import io.reactivex.rxjava3.disposables.Disposable;
 import io.reactivex.rxjava3.schedulers.Schedulers;
-
-
 public class Main5Activity extends AppCompatActivity {
     private Button btnPlayMusic;
     private Disposable disposable;
     private ProgressDialog progressDialog;
     private MediaPlayer mediaPlayer;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
-
         btnPlayMusic = findViewById(R.id.btn_play_music);
-
         btnPlayMusic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,12 +32,10 @@ public class Main5Activity extends AppCompatActivity {
             }
         });
     }
-
     private void playMusicWithRxJava() {
         progressDialog = new ProgressDialog(this);
         progressDialog.setMessage(getString(R.string.please_wait));
         progressDialog.show();
-
         disposable = Observable.fromCallable(this::playMusic)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
@@ -60,7 +53,6 @@ public class Main5Activity extends AppCompatActivity {
                         }
                 );
     }
-
     private boolean playMusic() {
         mediaPlayer = MediaPlayer.create(this, R.raw.music_file); // Add your music file in res/raw folder
         mediaPlayer.start();
@@ -72,7 +64,6 @@ public class Main5Activity extends AppCompatActivity {
         mediaPlayer.release();
         return true;
     }
-
     @Override
     protected void onDestroy() {
         super.onDestroy();

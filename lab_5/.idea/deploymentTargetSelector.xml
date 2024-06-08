@@ -13,10 +13,10 @@
       </SelectionState>
       <SelectionState runConfigName="Main5Activity">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-05-29T03:46:24.473002500Z">
+        <DropdownSelection timestamp="2024-06-03T14:28:37.546164400Z">
           <Target type="DEFAULT_BOOT">
             <handle>
-              <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\ledan\.android\avd\DO_AN_NT118.avd" />
+              <DeviceId pluginId="PhysicalDevice" identifier="serial=R9WTC0N8LKA" />
             </handle>
           </Target>
         </DropdownSelection>
